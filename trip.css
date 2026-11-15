@@ -21,4 +21,51 @@ nav{
     font-size: 100px;
     margin: 0;
     line-height: 0.9;
+    text-align: center;
+}
+
+.intro{
+    text-align: center;
+    margin-top: 40px;
+    color: #263c35;
+}
+
+.intro h2{
+    font-size: 28px;
+    margin: 5px;
+}
+
+.intro p{
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.start-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #263c35;
+    color: #f8eee5;
+    text-decoration: none;
+    font-size:14px;
+}
+
+#destination{
+    text-align: center;
+    margin-top: 150px;
+    padding: 40px;
+    color: #263c35;
+}
+
+.destination-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.destination-card {
+    background-color: #e9e0d9;
+    padding: 40px 20px;
+    min-width: 130px;
 }
