@@ -1,11 +1,24 @@
 body{
-    background-color: #f8eee5;
-    font-family: Arial, sans-serifs;
-    margin-top: 150 px;
+    background-color: #f1f2f5;
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding: 0;
 }
 
-h1{
-    font-family: 'Arial', sans-serifs;
+.page{
+    background-color: #e9e0d9;
+    margin: 70px 0 0 70px;
+    min-height: 80vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.logo h1{ 
     font-size: 100px;
-    margin:0;
+    margin: 0;
+    line-height: 0.9;
 }
