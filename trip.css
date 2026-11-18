@@ -57,6 +57,10 @@ nav{
     color: #263c35;
 }
 
+#destination h2{
+    text-align: center;
+}
+
 .destination-container{
     display: flex;
     justify-content: center;
